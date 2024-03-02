@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/pexels-lukas-616401.jpg);
+    background-size: cover;
+    height: 100vh;
+	
+     
+}
+.page{
+    height:30rem;
+    width: 50rem;
+    /* border:1px solid rgb(238, 230, 230); */
+    display: flex; 
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.panel-left{
+    width: 50%;
+    background-color: rgb(235, 235, 235);
+    opacity:1.2;
+    /* background-color: black; */
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    transition: all 0.7s;
+
+
+}
+.panel-left:hover{
+    background-color: rgb(235, 235, 235);
+    opacity: 0.8;
+    transition: all 0.7s ease-out;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+    border: 1px  white;
+    box-shadow: 10px -2px 15px rgb(207, 199, 183);
+}
+.panel-right{
+    width: 50%;
+    opacity: 0.8;
+    background-image: url(/images/pexels-ekaterina-belinskaya-4700119.jpg);
+    background-size:auto;
+    text-align:center;
+    color: white;
+    padding-top: 20px;
+   transition: all 2s;
+   
+   
+
+}
+ .panel-right:hover{
+    transition: all 2s ease-out;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px; 
+    border: 1px  white; 
+
+}
+.sign-in{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.socialmedia{
+    text-align:center;
+}
+.icon{
+    display: flex;
+    column-gap: 20px;
+}
+i{
+    font-size: 20px;
+}
+
+img{
+    position: relative;
+    height: 226px;
+    width: 100%;
+    opacity: 0.8;
+    padding-top: 10px;
+
+}
+.ani{
+   position: relative;
+   animation-name: example;
+   animation-duration: 1.5s;  
+   animation-delay: 0.5s;
+   animation-fill-mode: both;
+   transition: all 2s;
+}
+@keyframes example {
+    from {top: 0px; }
+    to {top: 20px; }
+  }
+

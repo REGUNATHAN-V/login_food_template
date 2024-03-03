@@ -91,13 +91,15 @@ img{
 .ani{
    position: relative;
    animation-name: example;
-   animation-duration: 1.5s;  
-   animation-delay: 0.5s;
+   animation-duration: 2s;  
+   animation-delay:1s;
    animation-fill-mode: both;
    transition: all 2s;
 }
 @keyframes example {
-    from {top: 0px; }
-    to {top: 20px; }
+    0% {top: 0px; }
+    50% {top: 20px; }
+    100% {top: 0px; }
+
   }
 
